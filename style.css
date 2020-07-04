@@ -9,7 +9,7 @@ html, body {
 
 
 
-/*---Media Queries --*/
+/*---Media Queries for the size of the screen on various devices --*/
 
 @media (max-width: 991px) {
 
@@ -67,7 +67,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/purple.jpg');
+  background-image: url('img/layer23.jpg');
   position: fixed;
   display: block;
   top: 0;

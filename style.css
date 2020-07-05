@@ -7,6 +7,33 @@ html, body {
   color: #222;
 }
 
+/*---Styling to the navbar */
+
+.navbar {
+  padding: .8rem;
+ }
+
+ .navbar-brand img {
+   height: 2rem;
+ }
+
+ .navbar-nav li {
+   padding-right: 1.1rem;
+ }
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.nav-link:hover,
+.nav-link.active {
+  border-bottom: .1rem solid #563d71;
+  font-weight: 500;/*---test to remove this line--*/
+}
+
+.carousel-inner img {
+  width: 100%
+}
 
 
 /*---Media Queries for the size of the screen on various devices --*/

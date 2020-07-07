@@ -47,29 +47,40 @@ html, body {
 }
 
 .carousel-caption h3 {
-  font-size: 3rem; 
+  font-size: 3rem;
   text-shadow: .1rem .1rem .6rem black;
   padding-bottom: 1rem;
 }
+/*         */
+
+
+/*       */
 .btn {
   font-weight: 500;
-  border-width: medium; 
+  border-width: medium;
+}
+.span4 img {
+  margin-right: 10px;
+}
+.span4 .img-left {
+  float: left;
+}
+.span4 .img-right {
+  float: right;
 }
 
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
   }
-img {
-  max-width: 100%;
- }
+
 .social a {
   font-size: 4rem;
   padding: 3rem;
   color: #85888c;
 }
 .social a:hover {
-  color: #563d71;
+  color: 	#800000;
 }
 
 footer {
@@ -89,8 +100,6 @@ hr.socket {
 /*---Media Queries for the size of the screen on various devices --*/
 
 @media (max-width: 991px) {
-
-
 }
 
 @media (max-width: 767px) {
@@ -162,8 +171,3 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
-
-
-
-
